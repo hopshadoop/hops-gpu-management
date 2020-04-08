@@ -44,6 +44,26 @@
     </repository>
   </repositories>
 
+  <profiles>
+    <profile>
+      <id>HopsEE</id>
+      <distributionManagement>
+        <repository>
+          <id>HopsEE</id>
+          <name>Hops Enterprise Repo</name>
+          <url>https://archive.logicalclocks.com/repository/hops-artifacts</url>
+        </repository>
+      </distributionManagement>
+      <repositories>
+        <repository>
+          <id>HopsEE</id>
+          <name>Hops Enterprise Repository</name>
+          <url>https://archive.logicalclocks.com/repository/hops-artifacts</url>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
   <distributionManagement>
     <repository>
       <id>Hops</id>
